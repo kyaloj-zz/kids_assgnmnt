@@ -1,0 +1,171 @@
+body{
+	margin: 0;
+	padding: 0 0;
+}
+#cont{
+
+	padding: 0 50px 50px 50px;
+	margin-top: 0;
+
+}
+
+header{
+	
+	margin: 0 0;
+	height: 100px;
+	width: 100%;
+
+}
+
+h1{
+	text-align: center;
+	margin: 0 0;
+	padding-top: 30px;
+
+}
+section {
+	display: inline-block;
+}
+
+#shapes{
+	width: 90%;
+	display: inline-block;
+	padding: 0 0 0 13%;
+
+}
+
+#shapes .sqr{
+
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+
+
+}
+
+.sqr p, .circle p, .rect p{
+
+	margin-top: 40%;
+}
+.rect p{
+
+	margin-top: 30%;
+}
+.tria p{
+
+	/*padding: 80%;*/
+	top: 33px;
+	left: -26px;
+	position: absolute;
+
+}
+
+#shapes .circle{
+
+	height: 100px;
+	width: 100px;
+	background-color: green;
+	border-radius: 100%;
+
+
+}
+
+#shapes .rect{
+
+	height: 100px;
+	width: 150px;
+	background-color: red;
+
+
+}
+
+#shapes .tria{
+    width: 0; 
+	height: 0; 
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	
+	border-bottom: 100px solid black;
+	position: relative;
+
+
+}
+
+
+
+.circle ,.rect ,.tria ,.sqr{
+	float: left;
+
+	display: block;
+	margin: 4%;
+	text-align: center;
+	color: white;
+
+
+}
+
+#above{
+
+	text-align: center;
+	display: block;
+}
+
+#above input{
+	width: 500px;
+	padding: 20px 0;
+	font-size: 20px;
+}
+
+#some_text{
+
+	background-image: url("/home/justus/Assignments/Assignment_1/assets/backgrounds/s_image.jpg");
+	height: 200px;
+	color: white;
+	text-align: center;
+	background-size: cover;
+
+}
+
+#some_text p {
+
+	margin: 5% 0; 
+	text-align: justify;
+	padding: 0 10px;
+}
+
+#text_boxes p{
+	width: 20%;
+	height: 20%;
+	float: left;
+	padding: 2.5% 2.5% 0 2.5%;
+	text-align: justify;
+}
+
+#box_2 {
+
+	height: 300px;
+	padding: 0 5% 5% 5%;
+}
+
+#box_2 .textbox1{
+
+float: left;
+width: 40%;
+height: 90%;
+padding: 0 2.5% 2.5% 4.5%;
+text-align: justify;
+
+}
+
+#box_2 img{
+	height: 50%;
+	width: 40%;
+	padding: 2.5% 30% 0 30% ;
+
+}
+
+footer{
+
+	text-align: center;
+
+}
